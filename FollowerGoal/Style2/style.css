@@ -6,7 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     background: #f0f0f0;
-    font-family: 'Press Start 2P', cursive; /* Aplicar la fuente a todo el cuerpo */
+    font-family: 'Press Start 2P', cursive;
 }
 
 .overlay {
@@ -38,6 +38,7 @@ body {
     width: 100%;
     text-align: center;
     padding: 5px;
+    border-radius: 10px;
 }
 
 .grade {
@@ -52,4 +53,5 @@ body {
     text-align: center;
     padding: 5px;
     font-weight: bold;
+    border-radius: 10px;
 }
