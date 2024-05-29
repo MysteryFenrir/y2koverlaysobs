@@ -6,7 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     background: #f0f0f0;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Press Start 2P', cursive; /* Aplicar la fuente a todo el cuerpo */
 }
 
 .overlay {
