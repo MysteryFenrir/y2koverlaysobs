@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+}
+
+.follower-goal {
+    background: linear-gradient(145deg, #ff80ab, #b388ff);
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    color: #fff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.goal-bar {
+    background: #fff;
+    border-radius: 10px;
+    height: 30px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.progress {
+    background: linear-gradient(145deg, #ff4081, #7c4dff);
+    height: 100%;
+    width: 0;
+    transition: width 0.5s;
+}
+
+.goal-info {
+    font-size: 18px;
+}
