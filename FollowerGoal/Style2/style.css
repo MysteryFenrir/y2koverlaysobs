@@ -39,19 +39,22 @@ body {
     text-align: center;
     padding: 5px;
     border-radius: 10px;
+    text-shadow: 2px 2px 0px #000, -2px -2px 0px #000, 2px -2px 0px #000, -2px 2px 0px #000; /* Bordes */
 }
 
 .grade {
     font-size: 64px;
     font-weight: bold;
+    text-shadow: 2px 2px 0px #000, -2px -2px 0px #000, 2px -2px 0px #000, -2px 2px 0px #000; /* Bordes */
 }
 
-.percentage {
-    font-size: 36px;
+.quantity {
+    font-size: 24px;
     background: #666;
     width: 100%;
     text-align: center;
     padding: 5px;
     font-weight: bold;
     border-radius: 10px;
+    text-shadow: 2px 2px 0px #000, -2px -2px 0px #000, 2px -2px 0px #000, -2px 2px 0px #000; /* Bordes */
 }
